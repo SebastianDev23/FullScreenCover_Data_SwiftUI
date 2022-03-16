@@ -6,7 +6,7 @@ import SwiftUI
 struct FullScreenCover_Data_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(myData: dataList[0])
+            ContentView(myData: dataList[0], soundItem: dataList[0].sound[0])
         }
     }
 }
